@@ -2040,6 +2040,19 @@
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v5.2.0"
   },
+  "vector": {
+    "dependencies": [
+      "arrays",
+      "either",
+      "extensions",
+      "foldable-traversable",
+      "math",
+      "prelude",
+      "proxy"
+    ],
+    "repo": "https://github.com/jutaro/purescript-vector.git",
+    "version": "v2.0.0"
+  },
   "web-clipboard": {
     "dependencies": [
       "web-html"
