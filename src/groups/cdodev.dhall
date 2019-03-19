@@ -25,4 +25,21 @@ in  { flare =
         [ "prelude", "arrays", "globals", "tuples" ]
         "https://github.com/klangner/purescript-linear-algebra.git"
         "v0.5.0"
+    , p5 =
+       mkPackage
+       [ "prelude"
+       , "console"
+       , "effect"
+       , "functions"
+       , "node-fs"
+       , "foreign"
+       , "foreign-generic"
+       , "debug"
+       , "stringutils"
+       , "quickcheck"
+       , "canvas"
+       , "aff"
+       ]
+       "https://github.com/parenparen/purescript-p5.git"
+       "v0.8.0"
     }

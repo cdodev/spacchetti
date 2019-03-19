@@ -1301,6 +1301,24 @@
     "repo": "https://github.com/purescript/purescript-orders.git",
     "version": "v4.0.0"
   },
+  "p5": {
+    "dependencies": [
+      "aff",
+      "canvas",
+      "console",
+      "debug",
+      "effect",
+      "foreign",
+      "foreign-generic",
+      "functions",
+      "node-fs",
+      "prelude",
+      "quickcheck",
+      "stringutils"
+    ],
+    "repo": "https://github.com/parenparen/purescript-p5.git",
+    "version": "v0.8.0"
+  },
   "pairing": {
     "dependencies": [
       "free",
