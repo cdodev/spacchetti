@@ -25,6 +25,18 @@ in  { flare =
         [ "prelude", "arrays", "globals", "tuples" ]
         "https://github.com/klangner/purescript-linear-algebra.git"
         "v0.5.0"
+    , stringutils =
+       mkPackage
+       [ "either"
+       , "arrays"
+       , "maybe"
+       , "prelude"
+       , "integers"
+       , "partial"
+       , "strings"
+       ]
+       "https://github.com/menelaos/purescript-stringutils.git"
+       "v0.0.8"
     , p5 =
        mkPackage
        [ "prelude"
