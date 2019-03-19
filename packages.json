@@ -923,6 +923,16 @@
     "repo": "https://github.com/justinwoo/purescript-lenient-html-parser.git",
     "version": "v4.0.0"
   },
+  "linear-algebra": {
+    "dependencies": [
+      "arrays",
+      "globals",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/klangner/purescript-linear-algebra.git",
+    "version": "v0.5.0"
+  },
   "lists": {
     "dependencies": [
       "bifunctors",
@@ -2039,19 +2049,6 @@
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v5.2.0"
-  },
-  "vector": {
-    "dependencies": [
-      "arrays",
-      "either",
-      "extensions",
-      "foldable-traversable",
-      "math",
-      "prelude",
-      "proxy"
-    ],
-    "repo": "https://github.com/jutaro/purescript-vector.git",
-    "version": "v2.0.0"
   },
   "web-clipboard": {
     "dependencies": [

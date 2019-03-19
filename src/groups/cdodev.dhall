@@ -20,16 +20,9 @@ in  { flare =
         [ "integers", "canvas", "math", "colors", "lists" ]
         "https://github.com/paf31/purescript-drawing.git"
         "v4.0.0"
-    , vector =
+    , linear-algebra =
         mkPackage
-        [ "proxy"
-        , "either"
-        , "arrays"
-        , "extensions"
-        , "foldable-traversable"
-        , "prelude"
-        , "math"
-        ]
-        "https://github.com/jutaro/purescript-vector.git"
-        "v2.0.0"
+        [ "prelude", "arrays", "globals", "tuples" ]
+        "https://github.com/klangner/purescript-linear-algebra.git"
+        "v0.5.0"
     }
